@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+/* Example CSS to differentiate user and bot messages */
+.user-message {
+  background-color: #4b6f7b; /* Light blueish */
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 70%;
+  margin-left: auto;
+}
+
+.bot-message {
+  background-color: #6c757d; /* Gray for bot */
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 70%;
+}
+
+.loading-message {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.2rem;
+}

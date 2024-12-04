@@ -1,0 +1,53 @@
+/* Stars Background Animation */
+@keyframes starAnimation {
+  0% {
+    top: -5%;
+    left: 50%;
+    opacity: 1;
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    top: 100%;
+    left: 100%;
+    opacity: 0;
+    transform: translateX(800px) translateY(800px);
+  }
+}
+
+.stars .star {
+  position: absolute;
+  width: 10px; /* Increase size of stars */
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: starAnimation linear infinite;
+}
+
+/* Add more stars */
+.stars .star:nth-child(odd) {
+  animation-duration: 12s;
+  animation-delay: 1s;
+}
+
+.stars .star:nth-child(even) {
+  animation-duration: 15s;
+  animation-delay: 2s;
+}
+
+/* Make the stars look different by adding random opacity */
+.stars .star:nth-child(1) {
+  opacity: 0.9;
+}
+.stars .star:nth-child(2) {
+  opacity: 0.7;
+}
+.stars .star:nth-child(3) {
+  opacity: 0.85;
+}
+.stars .star:nth-child(4) {
+  opacity: 0.6;
+}
+.stars .star:nth-child(5) {
+  opacity: 0.75;
+}
