@@ -21,10 +21,9 @@ function App() {
     <div className="relative min-h-screen bg-darkBg overflow-hidden ">
       {/* Stars Background */}
       
-
-      <div className="fixed" >
+      
         <Navbar />
-        </div>
+        
       <Hero />
       <Skill />
       <Experience />
