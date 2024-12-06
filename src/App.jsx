@@ -22,7 +22,9 @@ function App() {
       {/* Stars Background */}
       
 
-      <Navbar />
+      <div>
+        <Navbar />
+        </d
       <Hero />
       <Skill />
       <Experience />
