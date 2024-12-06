@@ -22,9 +22,9 @@ function App() {
       {/* Stars Background */}
       
 
-      <div>
+      <div className="fixed" >
         <Navbar />
-        </d
+        </div>
       <Hero />
       <Skill />
       <Experience />
