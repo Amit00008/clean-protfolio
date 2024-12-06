@@ -8,7 +8,7 @@ const Footer = () => {
         <p className="text-lg mb-4">Let's Connect!</p>
         <div className="flex justify-center space-x-8 text-3xl">
           <a
-            href="https://github.com/Amit0008" // Replace with your GitHub URL
+            href="https://github.com/Amit00008" // Replace with your GitHub URL
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-primary transition-colors"

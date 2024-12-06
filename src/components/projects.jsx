@@ -13,7 +13,7 @@ const projects = [
   {
     title: 'Felix.it',
     description: 'Felix is a cloud based ide that allows you to code in ur browser',
-    link: 'https://github.com/Amit0008/felix.it', // Source code link
+    link: 'https://github.com/Amit00008/felix.it', // Source code link
     liveLink: 'chrome:blank', // Live project link
     image: 'https://raw.githubusercontent.com/Amit00008/felix.it/main/demo-img/Screenshot%202024-11-10%20153923.png', // Replace with your project image URL
     technologies: ['React', 'Express', 'MongoDB', "node-pty", "Socket.io", "xterm.js"],
@@ -22,7 +22,7 @@ const projects = [
   {
     title: "FrankyAi - ChatBot",
     description: "FrankyAi is a chatbot that uses the GeminiApi to intrect with user",
-    link: "https://github.com/Amit0008/franky-ai-chatbot",
+    link: "https://github.com/Amit00008/franky-ai-chatbot",
     liveLink: "https://franky.amitfr.tech",
     image: "https://i.postimg.cc/MZgFR7xr/Screenshot-from-2024-12-04-16-23-04.png",
     technologies: ["Reach", "Nodejs", "GeminiApi"],
